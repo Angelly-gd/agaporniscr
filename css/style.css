@@ -1,0 +1,161 @@
+.box{
+	background-image: url(../img/enca.jpg);
+	background-size:100% 100%;
+	text-align: center;
+	height: 15vh;
+	width: 100;
+	
+}
+.box2{
+	background-color: #329D9C;
+	height: 3vw;
+	width: auto;
+	text-align: center;
+	padding: 20px o;
+	font-size: 30px-;
+	margin: 5px;
+}
+
+.box5{
+	background-color:#A6D676;
+	text-align: center;
+	padding: 20px o;
+	font-size: 30px-;
+	margin: 5px;
+}
+
+.titulo1{
+	font-family: 'Potta One', cursive;
+	color: #EC6116;
+}
+
+.parrafo1{
+	font-family: 'Khand', sans-serif;
+	font-size: 30px;
+}
+
+.parrafo2{
+	font-family: 'Khand', sans-serif;
+	font-size: 30px;
+}
+
+#menu{
+	font-family: 'Khand', sans-serif;
+	display: inline-block;
+	word-spacing: 30px;
+	padding: 13px;
+	text text-decoration: none;
+}
+
+#menu li a {
+			color: white;
+			text-decoration: none;
+}
+#img-fluid{
+width: auto;
+height: 60px;
+}
+.esquina{
+width: auto;
+height: 40px;
+display: block;
+margin: 10px;
+}
+
+.item1{grid-area: header;}
+.item2{grid-area: menu;}
+.item3{grid-area: main;}
+.item4{grid-area: right;}
+.item5{grid-area: footer;}
+
+.grid_container{
+	display: grid;
+	grid grid-gap: 10px;
+	grid-template-areas: 'header header header header header header'
+						 'menu    menu   menu   menu   menu   menu'
+						 'main    main   main   main   main   main'
+						 'right   right  right  right  right  right'
+						 'footer footer  footer footer footer footer';
+}
+.grid-container-body{
+	width: 70vw;
+	margin: 0 auto 0 auto;}
+.item1{
+	background-image: url(../img/enca.jpg);
+	background-size:100% 100%;
+	text-align: center;
+	height: 15vh;
+	width: 100;
+	}
+.item2{
+	background-color: #329D9C;
+	height: 3vw;
+	width: auto;
+	text-align: center;
+	font-size: 30px-;
+	margin: 5px;
+}
+#menu2{
+	font-family: 'Khand', sans-serif;
+	display: inline-block;
+	word-spacing: 30px;
+	padding: 13px;
+	font-size: 17px;
+	text-decoration: none;
+}
+#menu2 li a {
+			color: white;
+			text-decoration: none;
+			}
+.titulo2{
+	font-family: 'Potta One', cursive;
+	color: #EC6116;
+}
+#compras{
+	font-family: 'Khand', sans-serif;
+	display: inline-block;
+	word-spacing: 50px;
+	font-size: 30px;
+}
+.right{
+	padding: 20px o;
+	font-size: 30px;
+	margin: 5px;
+
+}
+.item4{
+	word-spacing: 300px;
+	font-size: 20px;
+	padding: 10px;
+}
+.item5{
+	background-color:#A6D676;
+	text-align: center;
+	padding: 20px o;
+	font-size: 30px;
+	margin: 5px;
+}
+.hamaca{
+	width: auto;
+	height:380px;
+}
+.mordedor{
+	width: auto;
+	height: 380px;
+}
+.campanas{
+	width: auto;
+	height: 380px;
+}
+.logo1{
+	width: 30%;
+	display: block;
+	margin: 10px;
+	padding: 12px;
+}
+.logo2{
+	width: 30%;
+	display: block;
+	margin: 10px;
+	padding: px;
+}
